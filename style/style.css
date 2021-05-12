@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+
+@font-face {
+	font-family: 'Menlo-Regular';
+	src: url("Menlo-Regular.ttf");
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  margin: 2em;
+  min-height: 2em;
+  background: gray;
+}
+
+input {
+    background: #303131;
+    color: white;
+}
+footer {
+    margin-top: 31px;
+    text-align: center;
+    font-family: 'Menlo-Regular';
+}
+h1 {
+    text-align: center;
+    font-size: 55px;
+    background-color: #73cbbc;
+    font-family: 'Geo', sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Menlo-Regular';
+    background: gray;
+    color: black;
+}
+.tableButton {
+    margin-top  : 113px;
+    margin-left: 70px;
+    padding: 10px;
+    margin-right: 34px;
+}
+
+.buttons {
+  background-color: #73cbbc;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-family: 'Menlo-Regular';
+  font-size: 16px;
+  font-weight:bold;
+  margin: 4px 2px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttons:hover {opacity: 1}
